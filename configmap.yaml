@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: busybox-config
+data:
+  MESSAGE: "Updated message from BusyBox"
